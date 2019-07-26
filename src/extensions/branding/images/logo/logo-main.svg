@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="29px" viewBox="0 0 136 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polyline id="path-1" points="8.52714545 0.1025 0.232718182 12.3615 0.232718182 17.392697 8.52714545 5.13431818 14.4580091 13.9002424 17.8628455 13.9002424 8.52714545 0.1025"></polyline>
+        <linearGradient x1="-74.714%" y1="-98.2884525%" x2="104.745%" y2="170.317882%" id="linearGradient-3">
+            <stop stop-color="#00FFDD" offset="0%"></stop>
+            <stop stop-color="#00D3FF" offset="100%"></stop>
+        </linearGradient>
+        <polyline id="path-4" points="16.4778053 6.81407576 11.9239868 0.0646060606 0.0437807018 17.6753485 17.0238132 17.6753485 11.9277395 10.1226515 10.2309246 12.6385606 11.5950061 14.6599848 5.47258772 14.6599848 11.9239868 5.09642424 15.125607 9.84062121 21.9066123 9.82943939 25.1657728 14.6599848 21.7702667 14.6599848 20.5537886 12.8559848 17.1589079 12.8559848 20.4105632 17.6753485 30.5939544 17.6753485 23.2663158 6.81407576 16.4778053 6.81407576"></polyline>
+        <linearGradient x1="-42.802%" y1="-15.2649071%" x2="60.454%" y2="75.8382185%" id="linearGradient-6">
+            <stop stop-color="#00FFDD" offset="0%"></stop>
+            <stop stop-color="#00D3FF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-7" points="20.4565833 5.79820988 25.213175 0.0499845679 21.8326062 0.0499845679 18.0402896 5.79820988 18.0658292 16.0096142 14.5158271 21.3914969 2.69909792 23.1333642 10.86865 11.4951852 11.6666062 11.206034 0 24.4627006 15.8706708 24.4627006 20.4565833 17.5515432"></polygon>
+        <linearGradient x1="-11.416%" y1="-34.629139%" x2="108.283%" y2="130.312463%" id="linearGradient-9">
+            <stop stop-color="#00FFDD" offset="0%"></stop>
+            <stop stop-color="#00D3FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group-4" transform="translate(-9.000000, 0.000000)">
+                <g id="Group-3">
+                    <g id="Group-2">
+                        <g id="logo-main">
+                            <g id="Group" transform="translate(23.333333, 0.000000)">
+                                <g id="Clipped">
+                                    <mask id="mask-2" fill="white">
+                                        <use xlink:href="#path-1"></use>
+                                    </mask>
+                                    <g id="yes-c"></g>
+                                    <polyline id="Path" fill="url(#linearGradient-3)" fill-rule="nonzero" mask="url(#mask-2)" points="8.52714545 0.1025 0.232718182 12.3615 0.232718182 17.392697 8.52714545 5.13431818 14.4580091 13.9002424 17.8628455 13.9002424 8.52714545 0.1025"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" transform="translate(19.333333, 10.000000)">
+                                <g id="Clipped">
+                                    <mask id="mask-5" fill="white">
+                                        <use xlink:href="#path-4"></use>
+                                    </mask>
+                                    <g id="yes-f"></g>
+                                    <polyline id="Path" fill="url(#linearGradient-6)" fill-rule="nonzero" mask="url(#mask-5)" points="16.4778053 6.81407576 11.9239868 0.0646060606 0.0437807018 17.6753485 17.0238132 17.6753485 11.9277395 10.1226515 10.2309246 12.6385606 11.5950061 14.6599848 5.47258772 14.6599848 11.9239868 5.09642424 15.125607 9.84062121 21.9066123 9.82943939 25.1657728 14.6599848 21.7702667 14.6599848 20.5537886 12.8559848 17.1589079 12.8559848 20.4105632 17.6753485 30.5939544 17.6753485 23.2663158 6.81407576 16.4778053 6.81407576"></polyline>
+                                </g>
+                            </g>
+                            <g id="Group" transform="translate(0.333333, 4.000000)">
+                                <g id="Clipped">
+                                    <mask id="mask-8" fill="white">
+                                        <use xlink:href="#path-7"></use>
+                                    </mask>
+                                    <g id="yes-i"></g>
+                                    <polygon id="Path" fill="url(#linearGradient-9)" fill-rule="nonzero" mask="url(#mask-8)" points="22.0742979 7.26041667 25.213175 0.0499845679 25.213175 3.49449074 22.6156125 7.26041667 20.9667521 11.4951852 11.1875833 26.6133025 4.1224625 24.6442901 -4.14177292 25.5939969 10.86865 6.42080247 -0.707010417 25.5939969 15.8706708 24.4627006 20.4565833 17.5515432"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                        <text id="CampDAO" font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" fill="#FFFFFF">
+                            <tspan x="55" y="22">CampDAO</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
