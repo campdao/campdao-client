@@ -1,5 +1,5 @@
 <template>
-  /*
+  <!--
   <div>
     <q-item to="/example">
       <q-item-side icon="check" color="text2" />
@@ -10,7 +10,7 @@
       <q-item-main label="Go to App" class="text-text1" />
     </q-item>
   </div>
-  */
+  -->
 </template>
 
 <script>
