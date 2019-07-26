@@ -10,7 +10,7 @@
   "scripts": {
     "build": "node ./build_scripts/before.js && quasar build",
     "dev": "node ./build_scripts/before.js && quasar dev",
-    "add_extensions": "git -C ./src clone"
+    "add_extensions": "yarn add_extensions https://github.com/campdao/campdao-client-extension.git extensions"
   },
   "dependencies": {
     "@chenfengyuan/vue-countdown": "^1.1.2",
