@@ -1,5 +1,5 @@
 {
-    "dacName": "Example DAC",
+    "dacName": "CampDAO",
     "dacScope": "eos.dac",
 
     "accounts":{
@@ -13,9 +13,9 @@
 
     "contracts": {
         "token": {
-            "name": "kasdactokens",
-            "symbol": "KASDAC",
-            "totalSupply": 1000000000.0000,
+            "name": "wearecampdao",
+            "symbol": "CAMP",
+            "totalSupply": 10000.0000,
             "decimals": 4
         },
         "system_token": {
@@ -43,7 +43,7 @@
         "escrow":{
             "name": "eosdacescrow"
         }
-          
+
     },
 
     "financial_page_graphs": [
