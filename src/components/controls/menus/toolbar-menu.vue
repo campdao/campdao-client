@@ -1,38 +1,46 @@
 <template>
-  <div class="row items-center ">
+  <div class="row items-center">
     <transition appear leave-class="animated fadeOut">
       <div
         v-if="getSettingByName('toolbar_menu_items').value && getAccountName"
-        class="row  justify-start gt-md q-mr-xl"
+        class="row justify-start gt-md q-mr-xl"
       >
         <q-item class="animate-pop">
-          <q-item-side :icon="$configFile.icon.dactoken" color="text1" />
+          <!-- <q-item-side :icon="$configFile.icon.dactoken" color="text1" /> -->
+          <q-item-side>
+            <img style="width:20px" src="statics/images/campdao_logo.svg" />
+          </q-item-side>
           <q-item-main style="margin-left:-5px">
-            <q-item-tile class="text-text2 q-caption" label>{{
-              $t("default.your_token_balance", {
-                tokenName: $configFile.get("dactokensymbol")
-              })
-            }}</q-item-tile>
-            <q-item-tile class="text-text1 q-caption" sublabel
-              ><xspan
+            <q-item-tile class="text-text2 q-caption" label>
+              {{
+                $t("default.your_token_balance", {
+                  tokenName: $configFile.get("dactokensymbol")
+                })
+              }}
+            </q-item-tile>
+            <q-item-tile class="text-text1 q-caption" sublabel>
+              <xspan
                 :value="
                   $helper.toLocaleNumber(
                     getDacBalance,
                     $configFile.get('tokendecimals')
                   )
                 "
-            /></q-item-tile>
+              />
+            </q-item-tile>
           </q-item-main>
         </q-item>
 
         <q-item class="animate-pop">
           <q-item-side :icon="$configFile.icon.systemtoken" color="text1" />
           <q-item-main style="margin-left:-5px">
-            <q-item-tile class="text-text2 q-caption" label>{{
-              $t("default.your_token_balance", {
-                tokenName: $configFile.get("systemtokensymbol")
-              })
-            }}</q-item-tile>
+            <q-item-tile class="text-text2 q-caption" label>
+              {{
+                $t("default.your_token_balance", {
+                  tokenName: $configFile.get("systemtokensymbol")
+                })
+              }}
+            </q-item-tile>
             <q-item-tile class="text-text1 q-caption" sublabel>
               <xspan
                 :value="
@@ -104,14 +112,14 @@
           />
           <q-item-side v-if="getMemberStatus === false" />
           <q-item-main>
-            <q-item-tile class="text-text1" label>{{
-              $t("menu.member_status")
-            }}</q-item-tile>
-            <q-item-tile v-if="getMemberStatus" class="text-text2" sublabel>{{
-              getMemberStatus
-            }}</q-item-tile>
-            <q-item-tile v-else class="text-text2" sublabel
-              ><q-btn
+            <q-item-tile class="text-text1" label>
+              {{ $t("menu.member_status") }}
+            </q-item-tile>
+            <q-item-tile v-if="getMemberStatus" class="text-text2" sublabel>
+              {{ getMemberStatus }}
+            </q-item-tile>
+            <q-item-tile v-else class="text-text2" sublabel>
+              <q-btn
                 color="primary"
                 to="/constitution"
                 dense
@@ -200,22 +208,24 @@ export default {
 </script>
 
 <style lang="stylus">
- @import '~variables'
+@import '~variables';
 
-#login_button  .q-focusable:focus .q-focus-helper,
-#login_button .q-hoverable:hover .q-focus-helper {
+#login_button  .q-focusable:focus .q-focus-helper, #login_button .q-hoverable:hover .q-focus-helper {
   background: inherit;
   opacity: 0;
 }
+
 #login_button .q-hoverable:active .q-focus-helper {
   background: inherit;
   opacity: 0;
 }
+
 #login_button .q-focus-helper {
   opacity: 0;
   transition: unset;
 }
-.grey_scale{
+
+.grey_scale {
   filter: grayscale(80%);
 }
 </style>

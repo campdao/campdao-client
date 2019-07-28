@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="45" viewBox="0 0 60 45">
+  <defs>
+    <rect id="campdao_white-a" width="60" height="54" x="0" y="0"/>
+    <polyline id="campdao_white-c" points="13.594 .165 .371 19.899 .371 27.998 13.594 8.265 23.049 22.376 28.477 22.376 13.594 .165"/>
+    <polyline id="campdao_white-e" points="26.346 10.969 19.065 .104 .07 28.453 27.219 28.453 19.071 16.295 16.358 20.345 18.539 23.599 8.75 23.599 19.065 8.204 24.184 15.841 35.026 15.823 40.237 23.599 34.808 23.599 32.863 20.695 27.435 20.695 32.634 28.453 48.916 28.453 37.2 10.969 26.346 10.969"/>
+    <polygon id="campdao_white-g" points="32.84 9.164 40.476 .079 35.049 .079 28.961 9.164 29.002 25.303 23.303 33.809 4.333 36.562 17.448 18.168 18.729 17.711 0 38.663 25.478 38.663 32.84 27.74"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(0 -9)">
+    <mask id="campdao_white-b" fill="#fff">
+      <use xlink:href="#campdao_white-a"/>
+    </mask>
+    <g mask="url(#campdao_white-b)">
+      <g transform="translate(-20 9)">
+        <g transform="translate(36.306)">
+          <mask id="campdao_white-d" fill="#fff">
+            <use xlink:href="#campdao_white-c"/>
+          </mask>
+          <polyline fill="#FFF" points="13.594 .165 .371 19.899 .371 27.998 13.594 8.265 23.049 22.376 28.477 22.376 13.594 .165" mask="url(#campdao_white-d)"/>
+        </g>
+        <g transform="translate(30.835 16.26)">
+          <mask id="campdao_white-f" fill="#fff">
+            <use xlink:href="#campdao_white-e"/>
+          </mask>
+          <polyline fill="#FFF" points="26.346 10.969 19.065 .104 .07 28.453 27.219 28.453 19.071 16.295 16.358 20.345 18.539 23.599 8.75 23.599 19.065 8.204 24.184 15.841 35.026 15.823 40.237 23.599 34.808 23.599 32.863 20.695 27.435 20.695 32.634 28.453 48.916 28.453 37.2 10.969 26.346 10.969" mask="url(#campdao_white-f)"/>
+        </g>
+        <g transform="translate(0 6.05)">
+          <mask id="campdao_white-h" fill="#fff">
+            <use xlink:href="#campdao_white-g"/>
+          </mask>
+          <polygon fill="#FFF" points="35.437 11.475 40.476 .079 40.476 5.523 36.306 11.475 33.659 18.168 17.96 42.062 6.618 38.95 -6.649 40.451 17.448 10.148 -1.135 40.451 25.478 38.663 32.84 27.74" mask="url(#campdao_white-h)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
